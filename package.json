@@ -1,0 +1,28 @@
+{
+  "name": "xhr-request",
+  "version": "0.0.1",
+  "description": "Simple XMLHttpRequest wrapper",
+  "main": "request.js",
+  "scripts": {
+    "build": "npx webpack --node-env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HApablazaG/xhr-request.git"
+  },
+  "author": "Hugo Apablaza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HApablazaG/xhr-request/issues"
+  },
+  "homepage": "https://github.com/HApablazaG/xhr-request#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "core-js": "^3.21.1",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
